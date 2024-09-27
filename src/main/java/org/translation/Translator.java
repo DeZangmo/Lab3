@@ -1,4 +1,4 @@
-package org.translation;
+package main.java.org.translation;
 
 import java.util.List;
 

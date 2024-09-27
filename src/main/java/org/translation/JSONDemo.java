@@ -1,4 +1,4 @@
-package org.translation;
+package main.java.org.translation;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -33,8 +33,9 @@ public class JSONDemo {
      * @return value of key "key1" from the second object in the given jsonArray
      */
     public static String getKeyOneOfSecond(JSONArray jsonArray) {
-        // TODO: Complete this method.
-        return "";
+        JSONObject jsonObject = jsonArray.getJSONObject(0);
+        // : Complete this method.
+        return jsonObject.getString("key1");
     }
 
 }
